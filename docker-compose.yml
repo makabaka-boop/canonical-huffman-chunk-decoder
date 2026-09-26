@@ -1,0 +1,9 @@
+services:
+  huff:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: huff-decoder:latest
+    # 从标准输入读取 JSON，因此必须保持 stdin 打开：
+    #   docker compose run --rm -T huff < input.json
+    stdin_open: true
