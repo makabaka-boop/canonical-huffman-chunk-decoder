@@ -1,0 +1,6 @@
+# huff 服务从标准输入读取 JSON，解码结果写标准输出：
+#   docker compose run --rm -T huff < examples/valid.json
+services:
+  huff:
+    build: .
+    image: canonical-huffman-decoder:latest

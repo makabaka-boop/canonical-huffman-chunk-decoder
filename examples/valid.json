@@ -1,0 +1,8 @@
+{
+  "symbols": [
+    { "symbol": "A", "length": 1 },
+    { "symbol": "B", "length": 2 },
+    { "symbol": "EOS", "length": 2 }
+  ],
+  "bitstream": { "blocks": ["01", "60"], "totalBits": 11 }
+}
